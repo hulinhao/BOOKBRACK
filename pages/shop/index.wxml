@@ -1,0 +1,52 @@
+<view>
+  <view style="width:100%;">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" indicator-active-color="red" style="height:200px">
+          <block wx:for="{{imageurl}}" wx:key="url">
+            <swiper-item class="swiper-item">
+              <image src="{{item}}" class="img"></image>
+            </swiper-item>
+          </block>
+        </swiper>
+  </view>
+  <view class="content">
+    <view class="title">自助预定</view>
+    <view><button type="default" class="btn">预定</button></view>
+    <view style="text-align:center;">
+      <view class="card">
+        <view class="cardimg">
+          <image src="../../icon/vip.png" class="cardimage"></image>
+        </view>
+        <view class="cardtext">
+          <view class="carttext-1">办理会员卡</view>
+          <view class="carttext-2">下单享更多优惠</view>
+        </view>
+      </view>
+      <view style="width:2%;display:inline-block"></view>
+      <view class="card">
+        <view class="cardimg">
+          <image src="../../icon/yhq.png" class="cardimage"></image>
+        </view>
+        <view class="cardtext">
+          <view class="carttext-1">领券中心</view>
+          <view class="carttext-2">领券享优惠</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="address">
+      <view class="tit">地址</view>
+      <view class="detail">
+        上海市闵行区泰宏路新华联国际中心100栋802
+      </view>
+    </view>
+
+    <view class="address">
+      <view class="tit">座位分布图</view>
+      <view><image src="../../icon/zw.png"  class="zwimg"></image></view>
+    </view>
+
+    <view><button type="default" class="btn">自助预定</button></view>
+
+    <view class="coperight">Hulinhao提供技术支持</view>
+  </view>
+</view>

@@ -1,0 +1,75 @@
+/**index.wxss**/
+.content{
+  padding: 0 0 10px 10px;
+}
+.swiper-item{
+  width: 100%;
+  height:100%;
+}
+.img{
+  width: 100%;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%);
+}
+.title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.btn{
+  border-radius: 18px;
+}
+.card{
+  margin-top: 20px;
+  display: inline-block;
+  border:1px solid #ccc;
+  width: 38%;
+  border-radius: 10px;
+  padding: 12px 12px 12px 12px;
+}
+.cardimg{
+  display: inline-block;
+
+}
+.cardimage{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding-right: 8px;
+}
+.cardtext{
+  display: inline-block;
+}
+.carttext-1{
+  font-size: 16px;
+  font-weight: 600;
+}
+.carttext-2{
+  font-size: 12px;
+  color:#ccc;
+}
+.address{
+  margin-top: 20px;
+}
+.tit{
+  border-left: 3px solid #ACCD6B;
+  padding-left: 6px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.detail{
+
+}
+.coperight{
+  text-align: center;
+  font-size: 12px;
+  color:#ccc;
+  padding-top: 5px;
+}
+.zwimg{
+  width: 95%;
+  height: 150px;
+  padding: 0 0 10px 10px;
+}

@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/shop/index",
+    "pages/home/index",
+    "pages/study/index",
+    "pages/plan/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#CEA3A0",
+    "navigationBarTitleText": "书斋",
+    "navigationBarTextStyle":"black",
+    "navigationStyle":"default"
+   },
+   "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/shop/index",
+        "text": "自习室",
+        "iconPath": "icon/shop1.png",
+        "selectedIconPath": "icon/shop2.png"
+      },
+      {
+        "pagePath": "pages/study/index",
+        "text": "入座",
+        "iconPath": "icon/study1.png",
+        "selectedIconPath": "icon/study2.png"        
+      },
+      {
+        "pagePath": "pages/plan/index",
+        "text": "课程表",
+        "iconPath": "icon/plan1.png",
+        "selectedIconPath": "icon/plan2.png"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "text": "我的",
+        "iconPath": "icon/home1.png",
+        "selectedIconPath": "icon/home2.png"        
+      }
+    ],
+    "backgroundColor": "#f3f3f3",
+    "color": "#999",
+    "selectedColor": "#576b95",
+    "current":8
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
